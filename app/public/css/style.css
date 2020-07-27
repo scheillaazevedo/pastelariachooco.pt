@@ -1,0 +1,257 @@
+/*
+1- FONTS;
+2- FORM;
+3- NAV;
+4- MAIN;
+5- NOTIFICATION;
+*/
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    color: #613311;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0px;
+    line-height:20px;
+}
+
+/*********** FONTS ***********/
+h1 {
+    font-size: 38px;
+    font-weight: 700;
+    padding-top: 45px;
+}
+
+h3{
+    font-size: 24px;
+    font-weight: 500;
+    color: #613311;
+    padding-bottom: 20px;
+}
+
+h5{
+   font-size: 16px;
+   font-weight: 700; 
+}
+
+p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #613311;
+}
+
+/*********** NAV ***********/
+nav {
+    background-color:#ffffff;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+}
+
+nav .navbar {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    height: 67px;
+}
+
+nav .navbar ul.menu {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+
+nav .navbar ul.menu li {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 0 30px;
+}
+
+nav .navbar ul.menu li a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #613311;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+nav .navbar ul.menu li:hover a {
+    color: #ED8A19;
+}
+
+nav .navbar ul.menu li a.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+nav .navbar ul.menu li a.logo img {
+    width:97px;
+}
+
+
+/*********** MAIN ***********/
+.container{
+    width: 80%;
+    display: flex;
+    justify-content: start;
+    height:auto;
+}
+
+/*********** PÁGINA: DETALHE DO PRODUTO ***********/
+.imgs_produto{
+    width: 40%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.imgs_produto .img_principal{
+    width: 430px;
+    display: flex;
+}
+
+.imgs_produto .imgs_secundarias{
+    width: 195px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+.info_produto{
+    width: 60%;
+    height: auto;
+}
+
+.filtro_linha, .opcao_filtro{
+    display: flex;
+}
+
+.info_produto .opcao_filtro .botao_opcao_esq{
+    border: 1px solid #D9D9D9;
+    background-color: #ffffff;
+    font-size: 16px;
+    padding: 7px 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    color:#595959;
+    cursor: pointer;
+}
+
+.info_produto .opcao_filtro .botao_opcao_dir{
+    border: 1px solid #D9D9D9;
+    background-color: #ffffff;
+    font-size: 16px;
+    padding: 7px 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color:#595959;
+    cursor: pointer;
+}
+
+.info_produto .opcao_filtro .selecionado{
+    border: 1px solid #ED8A19;
+    background-color: #ED8A19;
+    color:#ffffff;
+}
+
+.info_produto .resumo_produto {
+    background-color: #F6F6F6;
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info_produto .pedido {
+    width: 65%;
+    height: auto;
+}
+
+.info_produto .pedido p {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.info_produto .pedido p span{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.info_produto .resumo_produto .valor {
+    width: 35%;
+    height: auto;
+    padding-left: 30px;
+    border-left:1px solid #613311;
+}
+
+.info_produto .resumo_produto .valor .total {
+    width: 100%;
+    height: 150px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/*********** FORM ***********/
+label{
+    font-size: 14px;
+    color: #262626;
+}
+
+input{
+    min-width: 200px;
+    border: 1px solid #D9D9D9;
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 7px;
+    padding-left: 20px;
+    font-size: 16px;
+    color: #262626;
+}
+
+input::-webkit-input-placeholder {
+    color: #cccccc;
+}
+
+input:focus {
+    border: 1px solid #ED8A19;
+}
+
+nav .navbar form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 30%;
+}
+
+.estilo_select{
+   border: 1px solid #D9D9D9; 
+   background-color: #ffffff;
+   border-radius: 20px;
+   padding: 7px;
+}
+
+select{
+    border: none;
+    background-color: #ffffff;
+    min-width: 200px;
+    font-size: 16px;
+    color: #262626;
+}
+/*********** BUTTON ***********/
+button{
+    background-color: #ED8A19;
+    padding: 9px 20px;
+    font-size: 16px;
+    border: #ED8A19;
+    color: #ffffff;
+    border-radius: 20px;
+}

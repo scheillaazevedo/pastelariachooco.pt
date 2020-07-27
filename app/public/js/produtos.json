@@ -1,0 +1,312 @@
+{
+    "cake" : {
+        "produto_01": {
+            "nome": "Salvador",
+            "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla fringilla, velit eu consequat ultricies, metus massa bibendum eros, ac pellentesque velit leo eu ante. Donec in tortor sem. Integer eget consectetur lectus.",
+            "tamanho": {
+                "pequeno": {
+                    "massa": {
+                        "chocolate":{
+                            "valor": 2.50,
+                            "imagem": "cake_salvador_chocolate_01.jpg"
+                        },
+                        "morango": {
+                            "valor": 2.20,
+                            "imagem": "cake_salvador_morango_01.jpg"
+                        },
+                        "baunilha": {
+                            "valor": 2.70,
+                            "imagem":"cake_salvador_baunilha_01.jpg"
+                        },
+                        "limao": {
+                            "valor": 2.00,
+                            "imagem": "cake_salvador_limao_01.jpg"
+                        },
+                        "pao_de_lo": {
+                            "valor": 2.10,
+                            "imagem":"cake_salvador_pao-de-lo_01.jpg"
+                        },
+                        "integral": {
+                            "valor": 2.60,
+                            "imagem":"cake_salvador_integral_01.jpg"
+                        }
+                    },
+                    "recheio": {
+                        "chocolate_leite":{
+                            "valor": 2.50
+                        },
+                        "chocolate_preto":{
+                            "valor": 2.60
+                        },
+                        "chocolate_vegano":{
+                            "valor": 2.70
+                        },
+                        "morango": {
+                            "valor": 2.20
+                        },
+                        "baunilha_natural":{
+                            "valor": 2.10
+                        },
+                        "limao_siciliano": {
+                            "valor": 2.10
+                        },
+                        "sem_recheio": {
+                            "valor": 0
+                        }
+                    },
+                    "fruta": {
+                        "morango":{
+                            "valor": 1.50
+                        },
+                        "banana":{
+                            "valor": 1.60
+                        },
+                        "cereja":{
+                            "valor": 1.70
+                        },
+                        "laranja": {
+                            "valor": 1.20
+                        },
+                        "limao":{
+                            "valor": 1.10
+                        },
+                        "amora": {
+                            "valor": 1.10
+                        },
+                        "sem_fruta": {
+                            "valor": 0
+                        }
+                    }
+                },
+                "grande":{
+                    "massa": {
+                        "chocolate":{
+                            "valor": 3.50,
+                            "imagem": "cake_salvador_chocolate_01.jpg"
+                        },
+                        "morango": {
+                            "valor": 3.20,
+                            "imagem": "cake_salvador_morango_01.jpg"
+                        },
+                        "baunilha": {
+                            "valor": 3.70,
+                            "imagem":"cake_salvador_baunilha_01.jpg"
+                        },
+                        "limao": {
+                            "valor": 3.00,
+                            "imagem": "cake_salvador_limao_01.jpg"
+                        },
+                        "pao_de_lo": {
+                            "valor": 3.10,
+                            "imagem":"cake_salvador_pao-de-lo_01.jpg"
+                        },
+                        "integral": {
+                            "valor": 3.60,
+                            "imagem":"cake_salvador_integral_01.jpg"
+                        }
+                    },
+                    "recheio": {
+                        "chocolate_leite":{
+                            "valor": 3.50
+                        },
+                        "chocolate_preto":{
+                            "valor": 3.60
+                        },
+                        "chocolate_vegano":{
+                            "valor": 3.70
+                        },
+                        "morango": {
+                            "valor": 3.20
+                        },
+                        "baunilha_natural": {
+                            "valor": 3.10
+                        },
+                        "limao_siciliano": {
+                            "valor": 3.10
+                        },
+                        "sem_recheio": {
+                            "valor": 0
+                        }
+                    },
+                    "fruta": {
+                        "morango":{
+                            "valor": 2.50
+                        },
+                        "banana":{
+                            "valor": 2.60
+                        },
+                        "cereja":{
+                            "valor": 2.70
+                        },
+                        "laranja": {
+                            "valor": 2.20
+                        },
+                        "limao":{
+                            "valor": 2.10
+                        },
+                        "amora": {
+                            "valor": 2.10
+                        },
+                        "sem_fruta": {
+                            "valor": 0
+                        }
+                    }
+                }
+            }
+        },
+        "produto_02": {
+            "nome": "Salvador",
+            "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla fringilla, velit eu consequat ultricies, metus massa bibendum eros, ac pellentesque velit leo eu ante. Donec in tortor sem. Integer eget consectetur lectus.",
+            "tamanho": {
+                "pequeno": {
+                    "massa": {
+                        "chocolate":{
+                            "valor": 2.50,
+                            "imagem": "cake_salvador_chocolate_01.jpg"
+                        },
+                        "morango": {
+                            "valor": 2.20,
+                            "imagem": "cake_salvador_morango_01.jpg"
+                        },
+                        "baunilha": {
+                            "valor": 2.70,
+                            "imagem":"cake_salvador_baunilha_01.jpg"
+                        },
+                        "limao": {
+                            "valor": 2.00,
+                            "imagem": "cake_salvador_limao_01.jpg"
+                        },
+                        "pao_de_lo": {
+                            "valor": 2.10,
+                            "imagem":"cake_salvador_pao-de-lo_01.jpg"
+                        },
+                        "integral": {
+                            "valor": 2.60,
+                            "imagem":"cake_salvador_integral_01.jpg"
+                        }
+                    },
+                    "recheio": {
+                        "chocolate_leite":{
+                            "valor": 2.50
+                        },
+                        "chocolate_preto":{
+                            "valor": 2.60
+                        },
+                        "chocolate_vegano":{
+                            "valor": 2.70
+                        },
+                        "morango": {
+                            "valor": 2.20
+                        },
+                        "baunilha_natural":{
+                            "valor": 2.10
+                        },
+                        "limao_siciliano": {
+                            "valor": 2.10
+                        },
+                        "sem_recheio": {
+                            "valor": 0
+                        }
+                    },
+                    "fruta": {
+                        "morango":{
+                            "valor": 1.50
+                        },
+                        "banana":{
+                            "valor": 1.60
+                        },
+                        "cereja":{
+                            "valor": 1.70
+                        },
+                        "laranja": {
+                            "valor": 1.20
+                        },
+                        "limao":{
+                            "valor": 1.10
+                        },
+                        "amora": {
+                            "valor": 1.10
+                        },
+                        "sem_fruta": {
+                            "valor": 0
+                        }
+                    }
+                },
+                "grande":{
+                    "massa": {
+                        "chocolate":{
+                            "valor": 3.50,
+                            "imagem": "cake_salvador_chocolate_01.jpg"
+                        },
+                        "morango": {
+                            "valor": 3.20,
+                            "imagem": "cake_salvador_morango_01.jpg"
+                        },
+                        "baunilha": {
+                            "valor": 3.70,
+                            "imagem":"cake_salvador_baunilha_01.jpg"
+                        },
+                        "limao": {
+                            "valor": 3.00,
+                            "imagem": "cake_salvador_limao_01.jpg"
+                        },
+                        "pao_de_lo": {
+                            "valor": 3.10,
+                            "imagem":"cake_salvador_pao-de-lo_01.jpg"
+                        },
+                        "integral": {
+                            "valor": 3.60,
+                            "imagem":"cake_salvador_integral_01.jpg"
+                        }
+                    },
+                    "recheio": {
+                        "chocolate_leite":{
+                            "valor": 3.50
+                        },
+                        "chocolate_preto":{
+                            "valor": 3.60
+                        },
+                        "chocolate_vegano":{
+                            "valor": 3.70
+                        },
+                        "morango": {
+                            "valor": 3.20
+                        },
+                        "baunilha_natural": {
+                            "valor": 3.10
+                        },
+                        "limao_siciliano": {
+                            "valor": 3.10
+                        },
+                        "sem_recheio": {
+                            "valor": 0
+                        }
+                    },
+                    "fruta": {
+                        "morango":{
+                            "valor": 2.50
+                        },
+                        "banana":{
+                            "valor": 2.60
+                        },
+                        "cereja":{
+                            "valor": 2.70
+                        },
+                        "laranja": {
+                            "valor": 2.20
+                        },
+                        "limao":{
+                            "valor": 2.10
+                        },
+                        "amora": {
+                            "valor": 2.10
+                        },
+                        "sem_fruta": {
+                            "valor": 0
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- meta -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Pastelaria portuguesa"/>
+    <meta name="keywords" content="pastelaria, doces, receitas de doces, culinaria portuguesa"/>
+    <meta name="robots" content="index, follow">
+    
+    <!-- script -->
+    <script src="https://kit.fontawesome.com/d1b70630db.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+    <!-- link -->
+    <link rel="stylesheet" href="public/css/reset.css">
+    <link rel="stylesheet" href="public/css/style.css">
+    <link rel="stylesheet" href="public/css/space.css">
+   
+    <!-- fontes-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <nav>
+        <div class="navbar ml_10 mr_10">
+            <ul class="menu">
+                <li>
+                    <a href="#">Produtos</a>
+                </li>
+                <li>
+                    <a href="#">Lançamentos</a>
+                </li>
+                <li>
+                    <a href="#">Blog</a>
+                </li>
+                <li>
+                    <a class="logo" href="index.html"><img src="public/img/logotipo_cor.png" alt="Logotipo Coder"></a>
+                </li>
+                <li>
+                    <a href="#">Receitas</a>
+                </li>
+                <li>
+                    <a href="#">Minha conta</a>
+                </li>
+                <li>
+                    <a href="#"><i class="fas fa-shopping-basket"></i></a>
+                </li>
+            </ul>
+           
+        </div>
+    </nav>
+    <main>
+        <div class="container ml_10 mr_10 mt_5">
+            <div class="imgs_produto">
+                <img src="public/img/cake_salvador_01.jpg" class="img_principal" alt="Imagem principal do produto">
+                <img src="public/img/cake_salvador_02.jpg" class="imgs_secundarias" alt="Imagem secundaria do produto">
+                <img src="public/img/cake_salvador_03.jpg" class="imgs_secundarias" alt="Imagem secundaria do produto">
+            </div>
+            <div class="info_produto">
+                <h3 data-title="exemplo" class="nome_produto"> <!--Nome do produto escolhido--></h3>
+                <p class="descricao_produto mb_5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla fringilla, velit eu consequat ultricies, metus massa bibendum eros, ac pellentesque velit leo eu ante. Donec in tortor sem. Integer eget consectetur lectus.</p>
+                <form class="mt_2 mb_2">
+                    <label for="quantidade">Quantidade</label><br>
+                    <input type="number" id="quantidade" name="quantidade_produto" value="1"><br>
+                </form>
+                <div class="filtro_linha">
+                    <form class="filtro mt_3 mb_3 mr_3">
+                        <label for="tamanho">Tamanho</label><br>
+                        <div id="tamanho" class="opcao_filtro">
+                            <div id="pequeno" class="botao_opcao_esq selecionado">Pequeno</div>
+                            <div id="grande" class="botao_opcao_dir">Grande</div>
+                        </div>
+                    </form>
+                    <form class="filtro mt_3 mb_3">
+                        <label for="embalagem">Embalagem</label><br>
+                        <div id="embalagem" class="opcao_filtro">
+                            <div id="presente" class=" botao_opcao_esq">Presente</div>
+                            <div id="normal" class="botao_opcao_dir selecionado">Normal</div>
+                        </div>
+                    </form>
+                </div>
+                <div class="filtro_linha">
+                    <form class="filtro mt_3 mb_3 mr_3">
+                        <label for="massa">Massa</label><br>
+                        <div class="estilo_select">
+                            <select id="massa">
+                                <option value="chocolate"  selected>Chocolate</option>
+                                <option value="morango">Morango</option>
+                                <option value="baunilha">Baunilha</option>
+                                <option value="limao">Limão</option>
+                                <option value="pao_de_lo">Pão de Ló</option>
+                                <option value="integral">Integral</option>
+                            </select>
+                        </div>
+                    </form>
+                    <form class="filtro mt_3 mb_3 mr_3">
+                        <label for="recheio">Recheio</label><br>
+                        <div class="estilo_select">
+                            <select id="recheio">
+                                <option value="chocolate_leite"  selected>Chocolate ao leite</option>
+                                <option value="chocolate_preto">Chocolate preto</option>
+                                <option value="chocolate_vegano">Chocolate Vegano</option>
+                                <option value="morango">Morango</option>
+                                <option value="baunilha_natural">Baunilha natural</option>
+                                <option value="limao_siciliano">Limão siciliano</option>
+                                <option value="sem_recheio">Sem recheio</option>
+                            </select>
+                        </div>
+                    </form>
+                    <form class="filtro mt_3 mb_3">
+                        <label for="fruta">Fruta</label><br>
+                        <div class="estilo_select">
+                            <select id="fruta">
+                                <option value="morango">Morango</option>
+                                <option value="banana">Banana</option>
+                                <option value="cereja">Cereja</option>
+                                <option value="laranja">Laranja</option>
+                                <option value="limao">Limão</option>
+                                <option value="amora">Amora</option>
+                                <option value="sem_fruta" selected>Sem fruta</option>
+                            </select>
+                        </div>
+                    </form>
+                </div>
+                <div class="resumo_produto mt_5">
+                    <div class="pedido">
+                        <h5 class="mb_2">Detalhe do pedido:</h5>
+                        <p>Produto:&nbsp<span class="resultado_produto"></span></p>
+                        <p>Quantidade:&nbsp<span class="resultado_quantidade"></span></p>
+                        <p>Tamanho:&nbsp<span class="resultado_tamanho"></span></p>
+                        <p>Embalagem:&nbsp<span class="resultado_embalagem"></span></p>
+                        <p>Massa:&nbsp<span class="resultado_massa"></span></p>
+                        <p>Recheio:&nbsp<span class="resultado_recheio"></span></p>
+                        <p>Fruta:&nbsp<span class="resultado_fruta"></span></p>
+
+                    </div>
+                    <div class="valor">
+                        <h5 class="mb_2">Valor:</h5>
+                        <div class="total">
+                           <h3>R$<span class="total_valor"></span></h3>
+                           <button>Comprar</button> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>  
+    </main>    
+</body>
+<!-- JS: Bootstrap, jQuery e MDB -->
+<script src="public/js/script.js"></script>
+</html>
